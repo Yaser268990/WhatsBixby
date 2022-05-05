@@ -17,9 +17,9 @@ async function whatsAsena () {
     conn.regenerateQRIntervalMs = 50000;
     
     conn.on('connecting', async () => {
-        console.log(`${chalk.green.bold('Whats')}${chalk.blue.bold('Bixby')}
+        console.log(`${chalk.green.bold('Whats')}${chalk.blue.bold('bot')}
 ${chalk.white.italic('AsenaString Kodu Alıcı')}
-${chalk.blue.italic('ℹ️  Connecting to Whatsapp... Please Wait.')}`);
+${chalk.blue.italic('  الاتصال بواتس اب... الرجاء الانتظار.')}`);
     });
     
 
@@ -41,9 +41,9 @@ ${chalk.blue.italic('ℹ️  Connecting to Whatsapp... Please Wait.')}`);
         }
         else {
             await conn.sendMessage(conn.user.jid,st, MessageType.text)
-            await conn.sendMessage(conn.user.jid,'*Do Not Share This Code With Anyone!*', MessageType.text)
+            await conn.sendMessage(conn.user.jid,'*لا تشارك هذا الرمز مع أي شخص!*', MessageType.text)
             console.log(
-                chalk.blue.bold('If you are installing locale, you can start the bot with node bot.js')
+                chalk.blue.bold('إذا كنت تقوم بتثبيت الإعدادات المحلية ، فيمكنك بدء تشغيل الروبوت بالعقدة bot.js')
             );
         }
         
