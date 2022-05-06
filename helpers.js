@@ -17,13 +17,13 @@
 */
 
 function successfullMessage(msg) {
-    return "✅ *WhatsBixby*:  ```" + msg + "```"
+    return "✅ *YASER BOT*:  ```" + msg + "```"
 }
 function errorMessage(msg) {
-    return "🛑 *WhatsBixby*:  ```" + msg + "```"
+    return "🛑 *YASER BOT*:  ```" + msg + "```"
 }
 function infoMessage(msg) {
-    return "⏺️ *WhatsBixby*:  ```" + msg + "```"
+    return "⏺️ *YASER BOT*:  ```" + msg + "```"
 }
 
 
